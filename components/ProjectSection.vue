@@ -8,6 +8,7 @@
             :name="member.name"
             :role="member.role"
             :image="member.image"
+            :lattes="member.lattes"
             :linkedin="member.linkedin"
             :github="member.github"
             />
