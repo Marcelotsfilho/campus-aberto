@@ -5,6 +5,7 @@
         </nuxt-link>
         <nav class="flex space-x-20">
             <nuxt-link to="/" class="text-black hover:text-orange-300 text-xl">Home</nuxt-link>
+            <nuxt-link to="/participantes" class="text-black hover:text-orange-300 text-xl">Participantes</nuxt-link>
             <nuxt-link to="/projetos" class="text-black hover:text-orange-300 text-xl">Projetos</nuxt-link>
             <nuxt-link to="/modalidades" class="text-black hover:text-orange-300 text-xl">Modalidades</nuxt-link>
         </nav>
