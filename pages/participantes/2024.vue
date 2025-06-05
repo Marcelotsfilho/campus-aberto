@@ -85,14 +85,16 @@ const projetos = [
 </script>
 
 <template>
-    <div class="flex flex-col items-center">
+    <div class="flex flex-col">
       <BannerParticipantes />
-      <div class="flex justify-center items-center mt-20 mb-20 w-1/2">
-        <Carousel />
+      <div class="flex justify-center mt-20 mb-20 w-full">
+        <div class="w-1/2">
+          <Carousel />
+        </div>
       </div>
       <!-- faixa -->
       <div class="h-10 bg-orange-500"></div>
-      <div class="bg-white w-screen">
+      <div class="bg-white">
         <div class="container mx-auto px-4 py-16">
           <ProjectSection
             v-for="(projeto, index) in projetos"
