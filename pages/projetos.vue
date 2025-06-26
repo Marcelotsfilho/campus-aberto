@@ -43,9 +43,9 @@
             </div>
         </div>
 
-        <div class="flex items-start justify-center gap-30 mt-20">
+        <div class="flex items-start justify-center gap-10 mt-20 mx-15 pb-10">
             <div class="">
-                <TotemProjects
+                <TotemWhiteProjects
                     titulo="CAMPUS ABERTO RUNNERS"
                     :imagem="runnerImg"
                     :descricao="descricao"
@@ -53,10 +53,28 @@
                 />
             </div>
             <div class="">
-                <TotemProjects
-                    titulo="CAMPUS ABERTO ARTE, CULTURA E TECNOLOGIA"
+                <TotemDarkProjects
+                    titulo="CAMPUS ABERTO ATLÉTICA PANTERÃO"
                     :imagem="runnerImg"
                     :descricao="descricaoRunners"
+                    link="https://atletica-panterao-leopoldina.netlify.app/campus-aberto-runners"
+                />
+            </div>
+        </div>
+        <div class="flex items-start justify-center gap-25 mt-20 mx-15 pb-30">
+            <div class="">
+                <TotemDarkProjects
+                    titulo="CAMPUS ABERTO EDUCAÇÃO FÍSICA NO ENEM"
+                    :imagem="runnerImg"
+                    :descricao="descricaoRunners"
+                    link="https://atletica-panterao-leopoldina.netlify.app/campus-aberto-runners"
+                />
+            </div>
+            <div class="">
+                <TotemWhiteProjects
+                    titulo="CAMPUS ABERTO ARTE, CULTURA E TECNOLOGIA"
+                    :imagem="runnerImg"
+                    :descricao="descricao"
                     link="https://atletica-panterao-leopoldina.netlify.app/campus-aberto-runners"
                 />
             </div>
@@ -66,23 +84,27 @@
 </template>
   
 <script setup>
-  import BannerProjetos from '~/components/BannerProjetos.vue'
-  import TotemProjects from '~/components/TotemProjects.vue'
+  import BannerProjetos from '~/components/Projetos/BannerProjetos.vue'
+  import TotemWhiteProjects from '~/components/Projetos/TotemWhiteProjects.vue'
+  import TotemDarkProjects from '~/components/Projetos/TotemDarkProjects.vue'
   import runnerImg from '~/assets/images/futsal.png'
   
     const descricao = [
-        `O Campus Aberto é núcleo formado por um grupo de discentes (bolsistas e voluntários)
-        de diferentes níveis de ensino (técnico, graduação e pós-graduação) regularmente
-        matriculados no campus Leopoldina, que desenvolvem ações de ensino, pesquisa e
-        extensão no contexto do Esporte, coordenados pela professora de Educação Física,
-        Gabriela Venturini. Dessa forma, a Atlética CEFET Leopoldina, também conhecida como Atlética Panterão,
-        funciona como um “braço” do Campus Aberto, que tem como objetivo representar o CEFET-MG
-        em competições esportivas e promover a aproximação do Campus Leopoldina da comunidade
-        através do esporte, em diferentes contextos: educacional, científico, acadêmico,
-        tecnológico, de saúde e lazer.`
+        `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+        ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+        laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+        voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat
+        non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.`
+    ]
+    const descricaoPanterao = [
+
     ]
     const descricaoRunners = [
-        `Descrição dos Runners`
+        `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+        ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+        laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+        voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat
+        non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.`
     ]
 </script>
   

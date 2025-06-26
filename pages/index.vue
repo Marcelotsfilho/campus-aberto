@@ -9,3 +9,8 @@
         </div>
     </div>
 </template>
+
+<script setup>
+    import About from '~/components/Home/About.vue'
+    import Projects from '~/components/Home/Projects.vue'
+</script>

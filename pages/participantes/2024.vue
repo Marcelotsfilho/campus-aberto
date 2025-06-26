@@ -1,89 +1,3 @@
-<script setup>
-import BannerParticipantes from '@/components/BannerParticipantes.vue';
-import ProjectSection from '@/components/ProjectSection.vue';
-
-//imports de imagens para os cards
-import gabriela from '@/assets/images/gabriela.jpg';
-// import runnerImg from '@/assets/images/OutraPessoa.jpeg';
-
-const projetos = [
-  {
-    title: 'Campus Aberto - Atlética Panterão',
-    members: [
-      {
-        name: 'Marcelo Teixeira de Sousa Filho',
-        role: 'Bolsista de Extensão - 2025',
-        image: gabriela,
-        lattes: 'http://lattes.cnpq.br/2523304265479022',
-        linkedin: 'https://linkedin.com/in/marcelo',
-        github: 'https://github.com/marcelo',
-      },
-      {
-        name: 'Isabelly Araujo Temoteo',
-        role: 'Bolsista de Extensão - 2025',
-        image: gabriela,
-        lattes: 'http://lattes.cnpq.br/2523304265479022',
-        linkedin: 'https://linkedin.com/in/marcelo',
-        github: 'https://github.com/marcelo',
-      },
-      {
-        name: 'Marcelo Teixeira',
-        role: 'Bolsista de Extensão - 2025',
-        image: gabriela,
-        lattes: 'http://lattes.cnpq.br/2523304265479022',
-        linkedin: 'https://linkedin.com/in/marcelo',
-        github: 'https://github.com/marcelo',
-      },
-      {
-        name: 'Marcelo Teixeira',
-        role: 'Bolsista de Extensão - 2025',
-        image: gabriela,
-        lattes: 'http://lattes.cnpq.br/2523304265479022',
-        linkedin: 'https://linkedin.com/in/marcelo',
-        github: 'https://github.com/marcelo',
-      },
-    ],
-  },
-  {
-    title: 'Campus Aberto - Runners',
-    members: [
-      {
-        name: 'Joana Costa',
-        role: 'Voluntária - 2025',
-        image: gabriela,
-        lattes: 'http://lattes.cnpq.br/2523304265479022',
-        linkedin: 'https://linkedin.com/in/joana',
-        github: 'https://github.com/joana',
-      },
-      {
-        name: 'Joana Costa',
-        role: 'Voluntária - 2025',
-        image: gabriela,
-        lattes: 'http://lattes.cnpq.br/2523304265479022',
-        linkedin: 'https://linkedin.com/in/joana',
-        github: 'https://github.com/joana',
-      },
-      {
-        name: 'Joana Costa',
-        role: 'Voluntária - 2025',
-        image: gabriela,
-        lattes: 'http://lattes.cnpq.br/2523304265479022',
-        linkedin: 'https://linkedin.com/in/joana',
-        github: 'https://github.com/joana',
-      },
-      {
-        name: 'Joana Costa',
-        role: 'Voluntária - 2025',
-        image: gabriela,
-        lattes: 'http://lattes.cnpq.br/2523304265479022',
-        linkedin: 'https://linkedin.com/in/joana',
-        github: 'https://github.com/joana',
-      },
-    ],
-  },
-];
-</script>
-
 <template>
     <div class="flex flex-col">
       <BannerParticipantes />
@@ -108,3 +22,89 @@ const projetos = [
       <div class="h-10 bg-orange-500"></div>
     </div>
 </template>
+
+<script setup>
+  import BannerParticipantes from '@/components/Participantes/BannerParticipantes.vue';
+  import ProjectSection from '@/components/Participantes/ProjectSection.vue';
+
+  //imports de imagens para os cards
+  import gabriela from '@/assets/images/gabriela.jpg';
+  // import runnerImg from '@/assets/images/OutraPessoa.jpeg';
+
+  const projetos = [
+    {
+      title: 'Campus Aberto - Atlética Panterão',
+      members: [
+        {
+          name: 'Marcelo Teixeira de Sousa Filho',
+          role: 'Bolsista de Extensão - 2025',
+          image: gabriela,
+          lattes: 'http://lattes.cnpq.br/2523304265479022',
+          linkedin: 'https://linkedin.com/in/marcelo',
+          github: 'https://github.com/marcelo',
+        },
+        {
+          name: 'Isabelly Araujo Temoteo',
+          role: 'Bolsista de Extensão - 2025',
+          image: gabriela,
+          lattes: 'http://lattes.cnpq.br/2523304265479022',
+          linkedin: 'https://linkedin.com/in/marcelo',
+          github: 'https://github.com/marcelo',
+        },
+        {
+          name: 'Marcelo Teixeira',
+          role: 'Bolsista de Extensão - 2025',
+          image: gabriela,
+          lattes: 'http://lattes.cnpq.br/2523304265479022',
+          linkedin: 'https://linkedin.com/in/marcelo',
+          github: 'https://github.com/marcelo',
+        },
+        {
+          name: 'Marcelo Teixeira',
+          role: 'Bolsista de Extensão - 2025',
+          image: gabriela,
+          lattes: 'http://lattes.cnpq.br/2523304265479022',
+          linkedin: 'https://linkedin.com/in/marcelo',
+          github: 'https://github.com/marcelo',
+        },
+      ],
+    },
+    {
+      title: 'Campus Aberto - Runners',
+      members: [
+        {
+          name: 'Joana Costa',
+          role: 'Voluntária - 2025',
+          image: gabriela,
+          lattes: 'http://lattes.cnpq.br/2523304265479022',
+          linkedin: 'https://linkedin.com/in/joana',
+          github: 'https://github.com/joana',
+        },
+        {
+          name: 'Joana Costa',
+          role: 'Voluntária - 2025',
+          image: gabriela,
+          lattes: 'http://lattes.cnpq.br/2523304265479022',
+          linkedin: 'https://linkedin.com/in/joana',
+          github: 'https://github.com/joana',
+        },
+        {
+          name: 'Joana Costa',
+          role: 'Voluntária - 2025',
+          image: gabriela,
+          lattes: 'http://lattes.cnpq.br/2523304265479022',
+          linkedin: 'https://linkedin.com/in/joana',
+          github: 'https://github.com/joana',
+        },
+        {
+          name: 'Joana Costa',
+          role: 'Voluntária - 2025',
+          image: gabriela,
+          lattes: 'http://lattes.cnpq.br/2523304265479022',
+          linkedin: 'https://linkedin.com/in/joana',
+          github: 'https://github.com/joana',
+        },
+      ],
+    },
+  ];
+</script>

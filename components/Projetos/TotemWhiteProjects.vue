@@ -29,8 +29,8 @@
         imagem: String,
         descricao: Array,
         link: {
-        type: String,
-        default: ''
+            type: String,
+            default: ''
         }
     })
     </script>
